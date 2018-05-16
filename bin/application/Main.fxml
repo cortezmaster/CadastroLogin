@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="322.0" style="-fx-background-color: #b32d00;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <RadioButton layoutX="75.0" layoutY="176.0" mnemonicParsing="false" text="Masculino" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="188.0" layoutY="176.0" mnemonicParsing="false" text="Feminino" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="30.0" layoutY="176.0" text="Sexo" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNome" layoutX="30.0" layoutY="91.0" prefHeight="25.0" prefWidth="253.0" promptText="Nome">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtSobrenome" layoutX="30.0" layoutY="134.0" prefHeight="25.0" prefWidth="253.0" promptText="Sobrenome">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtidade" layoutX="30.0" layoutY="220.0" prefHeight="29.0" prefWidth="146.0" promptText="Idade">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Button layoutX="108.0" layoutY="329.0" mnemonicParsing="false" onAction="#Cadastrar" text="Cadastrar">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblCadastrar" layoutX="29.0" layoutY="34.0" text="Cadastro" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtPassword" layoutX="29.0" layoutY="269.0" prefHeight="29.0" prefWidth="146.0" promptText="Senha">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </PasswordField>
+      <Group layoutX="30.0" layoutY="106.0" />
+      <Group layoutX="61.0" layoutY="80.0" />
+   </children>
+</AnchorPane>
